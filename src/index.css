@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll::-webkit-scrollbar{
+    display: none;
+  }
+
+.opcity{
+  opacity: 50%;
+}
+
+.transition{
+  width: 1px;
+  transition: width 0.4s ease-in-out;
+}
+.transition:focus{
+  width: 100%;
+}
